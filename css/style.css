@@ -932,6 +932,7 @@ h3.goals {
 
 .section {
     padding: 94px 0;
+
 }
 
 .benefits {
@@ -955,22 +956,22 @@ li.benefits-item:not(:last-child) {
 
 /* what we do */
 
-.section-no-top-padding {
+.section__no-top-padding {
     padding-top: 0px;
 }
 
 
-.what-we-do-images {
+.section__what-we-do {
     display: flex;
     justify-content: center;
 }
 
-li.what-we-do-items:not(:last-child) {
+li.section__what-we-do-items:not(:last-child) {
     padding-right: 30px;
 }
 
 /* Our Team */
-.section-title {
+.section__title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -985,28 +986,28 @@ li.what-we-do-items:not(:last-child) {
     background-color: #f5f4fa;
 }
 
-.our-team-list {
+.section__our-team-list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li.our-team-item:not(:last-child) {
+li.section__our-team-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.our-team-item {
+.section__our-team-item {
     background: #FFFFFF;
     padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.image-our-team {
+.section__logo-our-team {
     margin-bottom: 30px;
 }
 
-h3.team-member {
+h3.section__team-member {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1017,7 +1018,7 @@ h3.team-member {
     margin-bottom: 10px;
 }
 
-p.team-position {
+p.section__team-position {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1027,16 +1028,16 @@ p.team-position {
     color: #757575;
 }
 
-.image-what-we-do {
+.section__what-we-do-image {
     position: relative;
 
 }
 
-.image-wwd {
+.section__wwd-image {
     display: flex;
 }
 
-.overlay-wwd {
+.section__paragraph-wwd {
     position: absolute;
     width: 100%;
     padding: 20px 0;
@@ -1045,9 +1046,6 @@ p.team-position {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.title-wwd {
 
     font-style: normal;
     font-weight: 700;
@@ -1060,7 +1058,7 @@ p.team-position {
     color: #FFFFFF;
 }
 
-.image-what-we-do:not(:last-child) {
+.section__what-we-do-image:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -1131,7 +1129,7 @@ a.contact-info-footer {
 }
 
 /*UL list of the OUR teams icon */
-.socialmedia-list {
+.socials__social-media-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1139,7 +1137,7 @@ a.contact-info-footer {
 
 
 /* svg */
-.icon-social-media {
+.socials__social-svg {
     fill: currentColor;
 }
 
@@ -1338,7 +1336,7 @@ p.headings-text {
     align-items: center;
 }
 
-.socialmedia-link {
+.socials__social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1352,13 +1350,13 @@ p.headings-text {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socialmedia-link:hover,
-.socialmedia-link:focus {
+.socials__social-link:hover,
+.socials__social-link:focus {
     background-color: #2196F3;
     color: white;
 }
 
-.circle-social:not(:last-child) {
+.socials__social-item:not(:last-child) {
     margin-right: 10px;
 }
 
