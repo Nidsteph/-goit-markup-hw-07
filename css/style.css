@@ -401,11 +401,11 @@ li.nav__item:not(:last-child) {
     margin-right: 60px;
 }
 
-.header-contacts {
+.contact__list {
     display: flex;
 }
 
-.header-contacts li:not(:last-child) {
+.contact__list li:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -488,7 +488,7 @@ a.nav__logo {
 
 
 /* header contact info */
-.contact-info {
+.contact__link {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -504,25 +504,21 @@ a.nav__logo {
 
 }
 
-.contact-info:hover {
+.contact__link:hover {
     color: #2196F3;
 }
 
-.icon-contact {
+.contact__svg {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.icon-contact:hover,
-.icon-contact:focus {
+.contact__svg:hover,
+.contact__svg:focus {
     fill: #2196F3;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.icon-close {
-    fill: currentColor;
-    margin-right: 10px;
-}
 
 /*icons of the first list of goals */
 
@@ -1155,7 +1151,7 @@ a.contact-info-footer {
 
 
 /* contact on the header */
-ul.contact-info {
+ul.contact__link {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
