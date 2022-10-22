@@ -392,12 +392,12 @@ address {
     align-items: center;
 }
 
-.nav-menu {
+.nav__list {
     display: flex;
     padding-left: 97px;
 }
 
-li.nav-item:not(:last-child) {
+li.nav__item:not(:last-child) {
     margin-right: 60px;
 }
 
@@ -428,7 +428,7 @@ a.logo {
 
 
 /* navigator */
-.navigator {
+.nav__link {
     font-style: normal;
     display: block;
     position: relative;
