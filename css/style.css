@@ -411,7 +411,8 @@ li.nav__item:not(:last-child) {
 
 
 /*logo*/
-a.nav__logo {
+a.nav__logo,
+a.footer__logo {
     font-style: normal;
     font-family: "Raleway";
     font-weight: 700;
@@ -522,19 +523,19 @@ a.nav__logo {
 
 /*icons of the first list of goals */
 
-.icon-goals {
+.benefits__goals {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-li.icon-goal-item:not(:last-child) {
+li.benefits__item:not(:last-child) {
     padding-right: 20px;
 }
 
 
 /* page heading */
-h1.page-heading {
+h1.page-main__header {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -890,7 +891,7 @@ h1.page-heading {
 
 
 /*BACKGROUND OF THE TITLE*/
-.hero {
+.page-main {
     padding: 200px 0;
     background-color: #2f303a;
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4),
@@ -899,7 +900,7 @@ h1.page-heading {
     background-size: cover;
 }
 
-.hero-container {
+.page-main__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -907,7 +908,7 @@ h1.page-heading {
 
 
 /* heading with goals */
-h3.goals {
+h3.benefits__header {
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
@@ -918,7 +919,7 @@ h3.goals {
 
 }
 
-.icon-goals {
+.benefits__goals {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -935,13 +936,13 @@ h3.goals {
 
 }
 
-.benefits {
+.benefits__list {
     display: flex;
     justify-content: center;
 }
 
 
-p.goal-details {
+p.benefits__details {
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -949,24 +950,24 @@ p.goal-details {
 
 }
 
-li.benefits-item:not(:last-child) {
+li.benefits__item:not(:last-child) {
     margin-right: 30px;
 }
 
 
 /* what we do */
 
-.section__no-top-padding {
+.section__no-padding {
     padding-top: 0px;
 }
 
 
-.section__what-we-do {
+.section__wwd-list {
     display: flex;
     justify-content: center;
 }
 
-li.section__what-we-do-items:not(:last-child) {
+li.section__wwd-items:not(:last-child) {
     padding-right: 30px;
 }
 
@@ -1028,7 +1029,7 @@ p.section__team-position {
     color: #757575;
 }
 
-.section__what-we-do-image {
+.section__wwd-images {
     position: relative;
 
 }
@@ -1037,7 +1038,7 @@ p.section__team-position {
     display: flex;
 }
 
-.section__paragraph-wwd {
+.section__wwd-paragraph {
     position: absolute;
     width: 100%;
     padding: 20px 0;
@@ -1058,7 +1059,7 @@ p.section__team-position {
     color: #FFFFFF;
 }
 
-.section__what-we-do-image:not(:last-child) {
+.section__wwd-images:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -1110,7 +1111,7 @@ a.map {
     color: #FFFFFF;
 }
 
-a.contact-info-footer {
+a.footer__link {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -1331,7 +1332,7 @@ p.headings-text {
     padding: 60px 0;
 }
 
-.social-media-footer {
+.footer-find-us__list {
     display: flex;
     align-items: center;
 }
@@ -1360,7 +1361,7 @@ p.headings-text {
     margin-right: 10px;
 }
 
-.social-footer-link {
+.footer-find-us__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1376,8 +1377,8 @@ p.headings-text {
 
 }
 
-.social-footer-link:hover,
-.social-footer-link:focus {
+.footer-find-us__link:hover,
+.footer-find-us__link:focus {
     background-color: #2196F3;
     transition-property: background-color;
 }
@@ -1394,7 +1395,7 @@ a.map {
     color: #FFFFFF;
 }
 
-a.contact-info-footer {
+a.footer__link {
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -1405,20 +1406,20 @@ a.contact-info-footer {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a.contact-info-footer:hover,
-a.contact-info-footer:focus {
+a.footer__link:hover,
+a.footer__link:focus {
     color: white;
     transition-property: color;
 }
 
 
 
-li.info-footer:not(:last-child) {
+li.footer__item:not(:last-child) {
     padding: 0px 0px 4px 0px;
 }
 
 
-.find-us {
+.footer-find-us__paragraph {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -1433,23 +1434,23 @@ li.info-footer:not(:last-child) {
 
 }
 
-.find-us-footer {
+.footer-find-us {
     margin-left: 70px;
 }
 
 
 
-.social-media-list:not(:last-child) {
+.footer-find-us__item:not(:last-child) {
     margin-right: 10px
 }
 
 
 
-.social-media {
+.footer-find-us__svg {
     fill: currentColor;
 }
 
-.subscribe-footer {
+.footer-subscribe {
     margin-left: 93px;
     display: flex;
     flex-direction: column;

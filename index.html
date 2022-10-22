@@ -41,7 +41,7 @@
               </svg>
               info@devstudio.com
             </a>
-          </li>
+          </li> 
             <li>            
               <a class="contact__link link" href="tel:+380961111111">  
                 <svg class="contact__svg" width="10" height="16">
@@ -55,11 +55,10 @@
       </header>
 
       <!--main area-->
-
       <main>
-        <section class="hero">
-          <div class="container hero-container">
-            <h1 class="page-heading">
+        <section class="page-main">
+          <div class="container page-main__container">
+            <h1 class="page-main__header ">
               EFFECTIVE SOLUTIONS FOR<br />
               YOUR BUSINESS
             </h1>
@@ -71,54 +70,55 @@
           </div>
         </section>
 
+        <!---Benefits-->
         <section class="section">
           <div class="container">
-            <ul class="benefits list">
-              <li class="benefits-item">
-                <div class="icon-goals">
-                    <svg class="icon-goal" width="65.32" height="70">
+            <ul class="benefits__list list">
+              <li class="benefits__item">
+                <div class="benefits__goals">
+                    <svg class="benefits__svg" width="65.32" height="70">
                     <use href="./images/icons.svg#satellite-1"></use>
                     </svg>
                 </div>
-                <h3 class="goals">ATTENTION TO DETAILS</h3>
-                <p class="goal-details">
+                <h3 class="benefits__header">ATTENTION TO DETAILS</h3>
+                <p class="benefits__details">
                   We go into all the details and processes of your business to
                   develop a customized solution.
                 </p>
               </li>
-              <li class="benefits-item">
-                <div class="icon-goals">
-                  <svg class="icon-goal" width="66.96" height="70">
+              <li class="benefits__item">
+                <div class="benefits__goals">
+                  <svg class="benefits__svg" width="66.96" height="70">
                     <use href="./images/icons.svg#clock-2"></use>
                   </svg>
                 </div>
-                <h3 class="goals">PUNCTUALITY</h3>
-                <p class="goal-details">
+                <h3 class="benefits__header">PUNCTUALITY</h3>
+                <p class="benefits__details">
                   With us, you can feel safe and secure. An important principle
                   of the company: respect your time and respect the agreed
                   deadlines.
                 </p>
               </li>
-              <li class="benefits-item">
-                <div class="icon-goals">
-                <svg class="icon-goal" width="70" height="70">
+              <li class="benefits__item">
+                <div class="benefits__goals">
+                <svg class="benefits__svg" width="70" height="70">
                   <use href="./images/icons.svg#diagram-3"></use>
                 </svg>
                 </div>
-                <h3 class="goals">PLANNING</h3>
-                <p class="goal-details">
+                <h3 class="benefits__header">PLANNING</h3>
+                <p class="benefits__details">
                   You will be able to observe and participate in every phase of
                   solution development and implementation
                 </p>
               </li>
-              <li class="benefits-item">
-                <div class="icon-goals">
-                <svg class="icon-goal" width="54.83" height="60.66">
+              <li class="benefits__item">
+                <div class="benefits__goals">
+                <svg class="benefits__svg" width="54.83" height="60.66">
                   <use href="./images/icons.svg#astronaut-4"></use>
                 </svg>
                 </div>
-                <h3 class="goals">MODERN TECHNOLOGIES</h3>
-                <p class="goal-details">
+                <h3 class="benefits__header">MODERN TECHNOLOGIES</h3>
+                <p class="benefits__details">
                   We use innovative tools to solve assigned tasks. It's time to
                   simplify work processes.
                 </p>
@@ -128,42 +128,42 @@
         </section>
 
         <!---what we do-->
-        <section class="section section__no-top-padding">
+        <section class="section section__no-padding">
           <div class="container">
             <h2 class="section__title">What we do</h2>
-            <ul class="section__what-we-do list">
+            <ul class="section__wwd-list list">
 
-            <li class="section__what-we-do-items"></li> 
-              <div class="section__what-we-do-image">
+            <li class="section__wwd-items"></li> 
+              <div class="section__wwd-images">
                   <img class="section__wwd-image"
                     src="./images/what-we-do-1.png"
                     alt="Typing on the Computer"
                     width="370"/>
-                  <p class="section__paragraph-wwd">
+                  <p class="section__wwd-paragraph">
                     DESKTOP APPS
                   </p>
               </div>
             </li>
        
-            <li class="section__what-we-do-items">
-              <div class="section__what-we-do-image">  
+            <li class="section__wwd-items">
+              <div class="section__wwd-images">  
                   <img class="section__wwd-image" 
                   src="./images/what-we-do-2.png" 
                   alt="Apps" 
                   width="370"/>
-                  <p class="section__paragraph-wwd">
+                  <p class="section__wwd-paragraph">
                     MOBILE APPS
                   </p>
               </div>
             </li>
            
-              <li class="section__what-we-do-items">
-              <div class="section__what-we-do-image">
+              <li class="section__wwd-items">
+              <div class="section__wwd-images">
                   <img class="section__wwd-image" 
                     src="./images/what-we-do-3.png"
                     alt="Choose A Color"
                     width="370"/>
-                  <p class="section__paragraph-wwd">
+                  <p class="section__wwd-paragraph">
                     DESIGN SOLUTIONS
                   </p>  
               </div>
@@ -422,63 +422,63 @@
 
         <div class="container footer-container">
           <div>
-          <a class="logo link" href="./index.html">WebStudio</a>
+          <a class="footer__logo link" href="./index.html">WebStudio</a>
           <address>
-            <ul class=" list">
-              <li class="info-footer">
+            <ul class="list">
+              <li class="footer__item">
                 <a
                   href="https://www.google.com/maps/place/695+Park+Ave,+New+York,+NY+10065/@40.7688994,-73.9650256,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256"
                   target="_blank"
-                  class="contact-info-footer link">
+                  class="footer__link link">
                   695 Park Ave, New York, NY 10065
                   <br />United States</a>
               </li>
-              <li class="info-footer">
+              <li class="footer__item">
                 <a
-                  class="contact-info-footer link"
+                  class="footer__link link"
                   href="mailto:info@example.com">
                   info@example.com</a>
               </li>
-              <li class="info-footer">
-                <a class="contact-info-footer link" href="tel:+12127724150">
+              <li class="footer__item">
+                <a class="footer__link link" href="tel:+12127724150">
                   +1 212-772-4150</a>
               </li>
             </ul>
           </address>  
         </div>
- 
-      <div class="find-us-footer">
-        <!-- FIND US ON / Social Media -->
-          <p class="find-us">FIND US ON</p>
 
-          <ul class="social-media-footer list">
-            <li class="social-media-list">
-              <a class="social-footer-link link" href="/">
-                <svg class="social-media" weight="20" height="20">
+        <!-- FIND US ON / Social Media -->
+      <div class="footer-find-us">
+          <p class="footer-find-us__paragraph">FIND US ON</p>
+
+          <ul class="footer-find-us__list list">
+            <li class="footer-find-us__item">
+              <a class="footer-find-us__link link" href="/">
+                <svg class="footer-find-us__svg" weight="20" height="20">
                   <use href="./images/icons.svg#insta-1"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="social-media-list">
-              <a class="social-footer-link link" href="/">
-                <svg class="social-media" weight="20" height="16.25">
+            <li class="footer-find-us__item">
+              <a class="footer-find-us__link link" href="/">
+                <svg class="footer-find-us__svg" weight="20" height="16.25">
                   <use href="./images/icons.svg#twitter-2"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="social-media-list">
-              <a class="social-footer-link link" href="/">
-                <svg class="social-media" weight="20" height="16.25">
+            <li class="footer-find-us__item">
+              <a class="footer-find-us__link link" href="/">
+                <svg class="footer-find-us__svg" weight="20" height="16.25">
                   <use href="./images/icons.svg#fb-3"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="social-media-list">
-              <a class="social-footer-link link" href="/">
-                <svg class="social-media" weight="20" height="16.25">
+            <li class="footer-find-us__item">
+              <a class="footer-find-us__link link" href="/">
+                <svg class="footer-find-us__svg" weight="20" height="16.25">
                   <use href="./images/icons.svg#linkedin-4"></use>
                 </svg>
               </a>
@@ -488,7 +488,7 @@
    
 
         <!----SUBSCRIBE-->
-      <div class="subscribe-footer">
+      <div class="footer-subscribe">
           <p class="subscribe">Subscribe to the newsletter</p>
           <form class="subscribe-form">
             <input class="input-text" type="email" name="email" placeholder="E-mail"/> 
