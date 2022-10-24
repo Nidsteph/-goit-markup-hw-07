@@ -729,7 +729,7 @@ h1.page-main__header {
 }
 
 
-.input-text {
+.footer-subscribe__email {
 
     position: relative;
     width: 358px;
@@ -744,8 +744,8 @@ h1.page-main__header {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-text:hover,
-.input-text:focus {
+.footer-subscribe__email:hover,
+.footer-subscribe__email:focus {
     border-color: white;
 
 }
@@ -1456,11 +1456,11 @@ li.footer__item:not(:last-child) {
     flex-direction: column;
 }
 
-.subscribe-form {
+.footer-subscribe__form {
     display: flex;
 }
 
-.subscribe {
+.footer-subscribe__paragraph {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -1513,7 +1513,7 @@ li.footer__item:not(:last-child) {
     cursor: pointer;
 }
 
-.icon-send {
+.subscribe-button__svg {
     fill: white;
 }
 
