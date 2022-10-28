@@ -6,7 +6,7 @@
 
 /* button of Index */
 .button {
-    font-family: 'Roboto';
+    font-family: $Roboto;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -15,8 +15,8 @@
     letter-spacing: 0.06em;
     border: none;
 
-    color: #FFFFFF;
-    background: #2196F3;
+    color: $white;
+    background: $primaryColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -43,7 +43,7 @@ img {
 /*BACKGROUND OF THE TITLE*/
 .page-main {
     padding: 200px 0;
-    background-color: #2f303a;
+    background-color: $darkGray;
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ img {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: $white;
         margin-bottom: 30px;
     }
 }
@@ -85,21 +85,22 @@ img {
                 height: 120px;
                 margin-bottom: 30px;
     }
+
     &__header {
             font-style: normal;
                 font-weight: 700;
                 line-height: 16px;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
-                color: #212121;
+                color: $black;
                 margin-bottom: 10px;
     }
+
     &__details {
     font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
-    
+    color: $gray;
     }
 }
 
@@ -145,7 +146,7 @@ li.benefits__item:not(:last-child) {
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #FFFFFF;
+        color: $white;
     }
 
 }
@@ -166,7 +167,7 @@ li.section__wwd-items:not(:last-child) {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $black;
     margin-bottom: 50px;
 
     &__our-team-list {
@@ -176,7 +177,7 @@ li.section__wwd-items:not(:last-child) {
     }
 
     &__our-team-item {
-        background: #FFFFFF;
+        background: $white;
         padding-bottom: 30px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -189,7 +190,7 @@ li.section__wwd-items:not(:last-child) {
         line-height: 19px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: $black;
         margin-bottom: 10px;
     }
 
@@ -204,13 +205,13 @@ li.section__wwd-items:not(:last-child) {
         line-height: 19px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: $gray;
     }
 
 }
 
 .section-team {
-    background-color: #f5f4fa;
+    background-color: $paleWhite;
 }
 
 li.section__our-team-item:not(:last-child) {
@@ -237,8 +238,8 @@ li.section__our-team-item:not(:last-child) {
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
     &:hover, &:focus {
-        fill: #2196F3;
-        border: 1px solid #2196F3;
+        fill: $primaryColor;
+        border: 1px solid $primaryColor;
     }
 
     }
@@ -266,7 +267,7 @@ li.section__customers-item:not(:last-child) {
     align-items: center;
     height: 44px;
     width: 44px;
-    color: #AFB1B8;
+    color: $lighterGray;
     border-radius: 50%;
 
     transition-property: color, background-color;
@@ -274,8 +275,8 @@ li.section__customers-item:not(:last-child) {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, &:focus {
-        background-color: #2196F3;
-        color: white;        
+        background-color: $primaryColor;
+        color: $white;        
     }
     }
 }
