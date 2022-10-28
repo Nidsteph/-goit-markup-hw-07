@@ -112,7 +112,11 @@ li.nav__item:not(:last-child) {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+        
+            font-style: normal;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0.02em;
     &:hover {
             color: #2196F3;
         }
@@ -131,12 +135,10 @@ li.nav__item:not(:last-child) {
     }
     
 
-
 }
 
 .contact__list li:not(:last-child) {
     margin-right: 50px;
 }
-
 
 
