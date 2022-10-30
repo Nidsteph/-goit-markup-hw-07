@@ -1,32 +1,4 @@
 
-/* buttons of portfolio */
-.button-nav {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-
-    color: $black;
-    border: none;
-    background-color: $paleWhite;
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 6px 26px;
-
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover, &:focus {
-        background-color: $primaryColor;
-        color: $white;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-            0px 1px 2px rgba(0, 0, 0, 0.08),
-            0px 2px 2px rgba(0, 0, 0, 0.12);        
-    }
-
-}
 
 .filter__list {
     display: flex;
@@ -39,20 +11,6 @@ li.filter__item:not(:last-child) {
     margin-right: 8px;
 }
 
-/* filter of the buttons */
-
-.filter-current {
-    background-color: $primaryColor;
-    color: $white;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.button__request:hover {
-    background-color: $secondaryBlue;
-
-}
 
 /* portoflio list of images and titles with description */
 
