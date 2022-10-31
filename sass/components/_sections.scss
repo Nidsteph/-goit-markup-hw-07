@@ -40,15 +40,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #F5F4FA;
-        border-radius: 4px;
-        width: 270px;
-        height: 120px;
+        background: $paleWhite;
+        border-radius: $benefitsBorderRadius;
+        width: $benefitsWidth;
+        height: $benefitsHeight;
         margin-bottom: 30px;
     }
 
     &__header {
-        font-style: normal;
+        font-style: $fontStyle;
         font-weight: 700;
         line-height: 16px;
         letter-spacing: 0.03em;
@@ -58,7 +58,7 @@
     }
 
     &__details {
-        font-style: normal;
+        font-style: $fontStyle;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: $gray;
@@ -90,7 +90,7 @@ li.benefits__item:not(:last-child) {
 
     &__wwd-paragraph {
         position: absolute;
-        width: 100%;
+        width: $wwdWidth;
         padding: 20px 0;
         bottom: 0;
         background: rgba(47, 48, 58, 0.8);
@@ -98,9 +98,9 @@ li.benefits__item:not(:last-child) {
         justify-content: center;
         align-items: center;
 
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
+        font-style: $fontStyle;
+        font-weight: $wwdFontWeight;
+        font-size: $wwdFontSize;
         line-height: 16px;
         text-align: center;
         letter-spacing: 0.03em;
